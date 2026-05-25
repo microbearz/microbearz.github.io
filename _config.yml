@@ -10,7 +10,7 @@ author:
   title: "Senior R&D Engineer / Overall Architecture Designer, Tencent PCG BiFang"
   location: "Shanghai, China"
   email: "shaoxiong0001@gmail.com"
-  github: "https://github.com/your-github"
+  github: "https://github.com/microbearz"
   linkedin: "https://www.linkedin.com/in/your-linkedin"
 
 plugins:
@@ -22,4 +22,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-
