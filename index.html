@@ -1,0 +1,209 @@
+---
+layout: default
+title: "Shaoxiong Zhan | Streaming Lakehouse Architect"
+---
+
+<header class="site-header">
+  <a class="brand" href="#top" aria-label="Shaoxiong Zhan homepage">ZSX</a>
+  <nav class="nav" aria-label="Main navigation">
+    <a href="#about">About</a>
+    <a href="#patents">Patents</a>
+    <a href="#experience">Experience</a>
+    <a href="#stack">Stack</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero section">
+    <div class="hero-copy">
+      <p class="eyebrow">Streaming Lakehouse Architect</p>
+      <h1>Shaoxiong Zhan</h1>
+      <p class="hero-title">Architecting streaming-batch unified systems for EB-scale data lakes, distributed storage, and high-performance data pipelines.</p>
+      <p class="hero-summary">
+        Senior R&amp;D Engineer and overall architecture designer for Tencent PCG BiFang. Apache Iceberg, Hudi,
+        and Kylin contributor with <span data-career-years data-start-date="2017-09-01">9+</span> years of experience building cloud-native big data platforms,
+        streaming-batch unified storage architectures, and lakehouse services.
+      </p>
+      <div class="hero-actions" aria-label="Contact options">
+        <a class="button primary" href="mailto:{{ site.author.email }}">Email</a>
+        <a class="button" href="#patents">View Patents</a>
+      </div>
+    </div>
+    <aside class="hero-panel" aria-label="Career overview">
+      <div>
+        <span class="metric" data-career-years data-start-date="2017-09-01">9+</span>
+        <span class="metric-label">Years in distributed data systems</span>
+      </div>
+      <div>
+        <span class="metric">EB</span>
+        <span class="metric-label">Scale data lake architecture</span>
+      </div>
+      <div>
+        <span class="metric">3</span>
+        <span class="metric-label">First-inventor patent portfolio</span>
+      </div>
+    </aside>
+  </section>
+
+  <section id="about" class="section split">
+    <div>
+      <p class="section-kicker">About</p>
+      <h2>Connecting real-time ingestion, lakehouse storage, and analytical systems into one engineering architecture.</h2>
+    </div>
+    <div class="section-copy">
+      <p>
+        I am Shaoxiong Zhan, currently responsible for the overall architecture design of BiFang at Tencent PCG.
+        My work focuses on streaming ingestion, lakehouse table formats, hot/cold tiered storage, columnar transport,
+        and system-level coordination across compute engines.
+      </p>
+      <p>
+        I work across Flink, Spark, StarRocks, Apache Iceberg, Apache Hudi, Arrow Flight, and RocksDB performance optimization,
+        with a practical focus on balancing throughput, latency, cost, and operational reliability.
+      </p>
+    </div>
+  </section>
+
+  <section id="patents" class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Patent Portfolio</p>
+      <h2>Patents</h2>
+    </div>
+    <div class="patent-grid">
+      <article class="patent-card">
+        <div class="card-topline">
+          <span class="status granted">Granted</span>
+          <span>First inventor</span>
+        </div>
+        <h3>CN112559459B</h3>
+        <p class="patent-name">Adaptive cloud-based storage tiering system and method</p>
+        <p>Automatically tiers data by access frequency to balance storage cost and access performance.</p>
+        <p class="patent-date">Granted: 2022-06-21</p>
+      </article>
+
+      <article class="patent-card">
+        <div class="card-topline">
+          <span class="status published">PCT published</span>
+          <span>First inventor</span>
+        </div>
+        <h3>WO2022126863A1</h3>
+        <p class="patent-name">Cloud orchestration system and method based on read/write separation and autoscaling</p>
+        <p>Decouples read and write modules and uses load-aware autoscaling to improve throughput and resource efficiency.</p>
+      </article>
+
+      <article class="patent-card">
+        <div class="card-topline">
+          <span class="status pending">Published</span>
+          <span>First inventor</span>
+        </div>
+        <h3>CN120849412A</h3>
+        <p class="patent-name">Data processing method, apparatus, device, and storage medium</p>
+        <p>Enables dynamic conversion between row-oriented and column-oriented storage for streaming-batch unified data processing engines.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="experience" class="section split">
+    <div>
+      <p class="section-kicker">Experience</p>
+      <h2>From query engines to EB-scale lakehouse services and streaming-lake unified architecture.</h2>
+    </div>
+    <div class="timeline">
+      <article class="timeline-item">
+        <span class="time">2024.08 - Present</span>
+        <h3>Tencent PCG BiFang / Streaming Lakehouse Platform</h3>
+        <p>Lead Architect. Designed a streaming-batch unified storage foundation based on Apache Pulsar and Apache Iceberg, supporting second-level lake ingestion, OLAP analytics, and unified access across Flink, Spark, and StarRocks.</p>
+        <ul>
+          <li>Designed an Arrow Flight-based zero-copy columnar transport pipeline, reducing end-to-end latency by 50%+.</li>
+          <li>Built a hot row-store and cold column-store tiered architecture, reducing storage cost by 80%+.</li>
+          <li>Promoted BiFang as a unified data foundation through internal technical reviews and architecture evolution planning.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item">
+        <span class="time">2022.12 - 2024.08</span>
+        <h3>ByteDance / Data Lake Platform</h3>
+        <p>Senior R&amp;D Engineer. Worked on ByteLake Table Service, an Apache Hudi-based in-memory streaming storage service for EB-scale lakehouse workloads.</p>
+        <ul>
+          <li>Optimized the BTS write model, achieving a 90%+ stable task rate and improving write throughput by 6x.</li>
+          <li>Refactored the Flink2BTS client write model, bringing production performance close to Flink2Kafka.</li>
+          <li>Designed distributed direct-read for BTS Compaction WAL, reducing failure rate to below 1% and cost by roughly 40%.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item">
+        <span class="time">2021.09 - 2022.12</span>
+        <h3>Tencent / Data Lake Platform</h3>
+        <p>Senior R&amp;D Engineer. Maintained an Iceberg/Hudi platform supporting trillion-level daily ingestion and EB-scale storage while contributing to the open-source community.</p>
+        <ul>
+          <li>Extended Flink Table Store to support Iceberg/Hudi SQL read and write paths.</li>
+          <li>Maintained and optimized automatic compaction and cleanup services, reaching a 98% success rate.</li>
+        </ul>
+      </article>
+
+      <article class="timeline-item">
+        <span class="time">2017.09 - 2021.08</span>
+        <h3>Kyligence / Query Engine &amp; Cloud Platform</h3>
+        <p>Senior R&amp;D Engineer / Query Engine Architect &amp; Cloud Tech Lead. Built the Kylin MDX Spark distributed query engine and multi-cloud product capabilities.</p>
+        <ul>
+          <li>Reduced report refresh from hours to second-level response.</li>
+          <li>Designed an autoscaling cloud platform and improved query performance by 60% through Alluxio optimization.</li>
+          <li>Delivered multi-cloud products across Azure and AWS for customers including UBS, Procter &amp; Gamble, and Appzen.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
+  <section id="stack" class="section">
+    <div class="section-heading">
+      <p class="section-kicker">Tech Stack</p>
+      <h2>Core Technology Stack</h2>
+    </div>
+    <div class="tag-cloud" aria-label="Technology tags">
+      <span>Apache Iceberg</span>
+      <span>Apache Flink</span>
+      <span>Apache Hudi</span>
+      <span>Apache Pulsar</span>
+      <span>Apache Spark</span>
+      <span>Arrow Flight</span>
+      <span>RocksDB</span>
+      <span>StarRocks</span>
+      <span>Parquet</span>
+      <span>Kafka</span>
+      <span>Paimon</span>
+      <span>Python</span>
+      <span>Scala</span>
+      <span>Java</span>
+      <span>AWS</span>
+      <span>Azure</span>
+      <span>GCP</span>
+    </div>
+  </section>
+
+  <section class="section split education">
+    <div>
+      <p class="section-kicker">Education</p>
+      <h2>East China Normal University</h2>
+    </div>
+    <div class="section-copy">
+      <p>B.S. and M.S. in Software Engineering, 2013 - 2020.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <p class="section-kicker">Contact</p>
+    <h2>Open to conversations about streaming-batch systems, lakehouse architecture, and distributed storage.</h2>
+    <div class="contact-links">
+      <a href="mailto:{{ site.author.email }}">Email</a>
+      <a href="{{ site.author.github }}">GitHub</a>
+      <a href="{{ site.author.linkedin }}">LinkedIn</a>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <span>© <span data-current-year>{{ "now" | date: "%Y" }}</span> Shaoxiong Zhan</span>
+  <span>Built with Jekyll and GitHub Pages.</span>
+</footer>
+
+<script src="./assets/js/main.js"></script>

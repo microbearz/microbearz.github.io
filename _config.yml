@@ -1,0 +1,25 @@
+title: "Shaoxiong Zhan | Streaming Lakehouse Architect"
+description: "Senior R&D Engineer and overall architecture designer for Tencent PCG BiFang, focused on streaming-batch unified systems, distributed storage, and lakehouse architecture."
+url: ""
+baseurl: ""
+lang: "en"
+timezone: "Asia/Shanghai"
+
+author:
+  name: "Shaoxiong Zhan"
+  title: "Senior R&D Engineer / Overall Architecture Designer, Tencent PCG BiFang"
+  location: "Shanghai, China"
+  email: "shaoxiong0001@gmail.com"
+  github: "https://github.com/your-github"
+  linkedin: "https://www.linkedin.com/in/your-linkedin"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
